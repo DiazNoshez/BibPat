@@ -1,0 +1,110 @@
+body{
+    background-color: #247881; 
+    font-family: 'Bebas Neue', cursive;
+}
+h1{
+    color: #ECAE0B; 
+    text-align: center; 
+    border: 7px solid #00FFC6; 
+    padding: 4px; 
+    background-color: #43919B;
+    font-size: 60px;
+}
+img{
+    border: 6px solid #F0A500;
+    margin: 15px
+}
+p{
+    color: bold black;
+    font-size: 20px;
+}
+div.galeria{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0;
+    float: left;
+    width: 350px;
+    color: white
+}
+div.galeria img{
+    width: 100%;
+    height: auto;
+}
+div.pie{
+    text-align: center;
+    text-shadow: 2px 2px 5px;
+}
+div.galeria:hover, div.galeri:active{
+    border: 1px solid yellow;
+    transform: rotate(-3deg);
+    background-color: #EA401C;
+}
+div.fb{
+    color: white;
+    margin: 10px 7px;
+    box-shadow: 0 4px 8px 0;
+    float: left;
+    width: 270px;
+    height: 16  0px;
+}
+div.fb img{
+    width: 100%;
+    height: auto;
+}
+div.fb:hover, div.fb:active, div.galeri:active{
+    border: 1px solid black;
+    transform: rotate(-3deg);
+    background-color: #EA401C
+}
+div.galeri{
+    color: white;
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0;
+    float: left;
+    width: 270px;
+    height: 300px;
+}
+div.galeri:hover, div.galeri:active, div.fb:active, div.fb:hover{
+    border: 1px solid yellow;
+    transform: rotate(-3deg);
+    background-color: #EA401C;
+}
+div.inicioCat{
+    background-color: #6EDAE7;
+    margin: 5px 5px;
+    width: 60px;
+    height: 60px;
+    border: 3px solid #F0A500;
+    box-shadow: 0 4px 8px 0;
+}
+div.inicioCat img{
+    border: none;
+    align-content: center;
+    margin: 15px 10px;
+}
+table, th{
+    width: 100%;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    border-collapse: collapse;
+    padding: 18px 80px;
+}
+th{
+    font-size:40px;
+    color: rgb(230, 245, 245);
+    background-color: #37D5C2;
+}
+td{
+    font-size: 20px;
+    text-align: left;
+    background-color: whitesmoke;
+    padding: 18px 5px
+}
+.tableFormat table{
+    margin: 0 auto;
+}
+tr:nth-child(even){
+    background-color: rgb(37, 75, 109);
+}
+tr:nth-child(odd){
+    background-color: rgb(108, 160, 160);
+}
